@@ -13,6 +13,7 @@
       name: "wget"
       state: present
     environment:
-      PATH: /opt/freeware/bin
+      # PATH: /opt/freeware/bin
+      PATH: /usr/bin
     vars:
       ansible_python_interpreter: /opt/freeware/bin/python3
